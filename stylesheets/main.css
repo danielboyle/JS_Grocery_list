@@ -4,12 +4,11 @@
 /* ================ Page Styles ================= */
 /* ============================================== */
 
-html, body {
+body {
   padding: 25px;
-  height: 100%;
   font: normal 16px "Roboto Condensed", Helvetica, Arial, sans-serif;
   color: #FEFCFD;
-  background-image: linear-gradient(to bottom, #BFCDE0 0%, #3B3355 100%);
+  background: linear-gradient(to bottom, #BFCDE0 0%, #3B3355 100%) fixed;
 }
 
 /* ============================================== */
