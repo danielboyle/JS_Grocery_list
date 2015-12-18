@@ -14,7 +14,7 @@ $(document).ready(function() {
 
     addItem(name, quantity);
     $form.get(0).reset();
-    $("#item_name").focus();
+    $item_name.focus();
   });
 
 });
