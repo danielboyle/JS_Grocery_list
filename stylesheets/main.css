@@ -1,0 +1,96 @@
+/*@import url("whitespace_reset.css");*/
+
+/* ============================================== */
+/* ================ Page Styles ================= */
+/* ============================================== */
+
+html, body {
+  padding: 25px;
+  height: 100%;
+  font: normal 16px "Roboto Condensed", Helvetica, Arial, sans-serif;
+  color: #FEFCFD;
+  background-image: linear-gradient(to bottom, #BFCDE0 0%, #3B3355 100%);
+}
+
+/* ============================================== */
+/* ================ Main Styles ================= */
+/* ============================================== */
+
+main {
+  display: block;
+  max-width: 450px;
+  padding: 20px;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, #3B3355 0%, #BFCDE0 100%);
+  border: 5px solid #000505;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 2px rgba(254, 252, 253, 0.8);
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: #000505;
+}
+
+/* ============================================== */
+/* ================ Form Styles ================= */
+/* ============================================== */
+
+fieldset {
+  padding: 0 0 25px 0;
+  border: none;
+}
+
+label {
+  display: block;
+  padding: 0 0 5px 0;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+  width: 80px;
+  height: 50px;
+  padding: 5px;
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  color: #000505;
+  border: 1px solid #BFCDE0;
+  box-sizing: border-box;
+}
+
+input#item_name { width: 100%; }
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 20px;
+  color: #FEFCFD;
+  text-shadow: 1px 1px 5px rgba(59, 51, 85, 0.8);
+  background: linear-gradient(to bottom, #000505, #BFCDE0);
+  border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  color: #BFCDE0;
+}
+
+input[type="submit"]:active {
+  color: #000505;
+  text-shadow: 1px 1px 5px rgba(59, 51, 85, 0.8);
+  background: linear-gradient(to bottom, #BFCDE0 10%, #FEFCFD);
+  outline: none;
+}
+
+/* ============================================== */
+/* ================ List Styles ================= */
+/* ============================================== */
+
+li {
+  padding: 10px;
+  color: #3B3355;
+}
+
+li + li { border-top: 1px solid #3B3355; }
